@@ -19,3 +19,16 @@ h2,h3 {
     line-height: 60px;
 }
 
+header {
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg");
+    height: 800px;
+    text-align: center;
+    padding: 100px;
+    
+}
+body {
+    text-align: center;
+}
+section.services {
+    
+}
