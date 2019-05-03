@@ -1,4 +1,4 @@
- .icon {
+.icon {
      text-align: center;
  }
 h2 {
@@ -10,3 +10,12 @@ p {
 h1 {
     text-align: center;
 }
+.column {
+    float: left;
+    width: 30.05%;
+    left: 50%;
+}
+h2,h3 {
+    line-height: 60px;
+}
+
