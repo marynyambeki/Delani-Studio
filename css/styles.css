@@ -71,7 +71,12 @@ body {
     width: 30%;
     align-items: horizontal;
 }
-.id .portfolio{
+.mouse{
+  object-position: bottom;
+  display: table;
+  margin-bottom: auto;
+  float: left;
+
 
 }
 
