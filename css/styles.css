@@ -75,9 +75,16 @@ body {
 .mouse-click{
   object-position: bottom;
   display: table
-
-
-
 }
 
-}
+
+@media only screen and (min-width : 768px) {
+
+    .form-group.c1,
+    .form-group.c2{
+      display:inline-block;
+      width:48%;
+      vertical-align: top;
+    }
+  
+  }
