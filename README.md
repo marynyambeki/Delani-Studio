@@ -1,12 +1,17 @@
-DELANI STUDIO
-Description:
+## DELANI-STUDIO
+
+## Description:
 This is a website created for Delani studio showcasing what they do, there services and there various portfolios and also there contact information.
 
 
-Languages used:
-HTML Javascript CSS bootstrap and jquery
+##Languages used:
++ HTML 
++Javascript
++ CSS 
++ bootstrap  
++ jquery
 
-BDD:
+## BDD:
 This application is therefore expected to work like this below:
 
 should be able to display a landing page showing casing the Delani Studio..
@@ -15,15 +20,15 @@ should be able to toogle when clicked between the respective description of each
 should be able to hover on the respective portofolios so as to show what the studio is all about.
 
 
-Author
+### Author
 Mary Nyambeki
 
-Contacts:
+### Contacts:
 Need Any Help? CALL me on 070000012
 
-Setup requirements:
+### Setup requirements:
 Web browser Internet connection Link to the app: https://marynyambeki.github.io/Delani-Studio/
 
-License:
+### License:
 Copyright © 2019; MaryNyambeki.Inc.
 
