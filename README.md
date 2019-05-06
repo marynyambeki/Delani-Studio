@@ -6,7 +6,7 @@ This is a website created for Delani studio showcasing what they do, there servi
 
 ##Languages used:
 + HTML 
-J+ avascript
++Javascript
 + CSS 
 + bootstrap  
 + jquery
