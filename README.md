@@ -1,4 +1,5 @@
-##DELANI STUDIO
+##DELANI-STUDIO
+
 ##Description:
 This is a website created for Delani studio showcasing what they do, there services and there various portfolios and also there contact information.
 
