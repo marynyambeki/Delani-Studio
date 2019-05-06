@@ -29,7 +29,7 @@ $(document).ready(function() {
     } else {
       $.ajax({
         method: 'POST',
-        url: "http://formspree.io/mashalonzo741@gmail.com",
+        url: "http://formspree.io/marynyambeki1@gmail.com",
         data: $('#contact-form').serialize(),
         datatype: 'json' });
 

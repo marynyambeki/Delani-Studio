@@ -73,8 +73,7 @@ body {
     align-items: horizontal;
 }
 .mouse-click{
-  object-position: bottom;
-  display: table
+  object-position: center;
 }
 
 /* Style the form - display items horizontally */

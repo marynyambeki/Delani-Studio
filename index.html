@@ -50,43 +50,41 @@
         </section>
 
         <h2>WHAT WE DO</h2>
-
-        <br><br>
-        <!--<div>-->
-          <div class="container">
-            <div class="row col-md-12">
-                <div class="col-md-4">
-                 <img src="img/design_icon.png" alt="an image of a design icon" id="image1" class="offset-4">
-                 <h3>DESIGN</h3>
-                 <p>DESIGN</p>
-                 <p>Our design practice offers a full range of services including</p>
-                 <p>brand strategy, interaction and visual design and user experience testing.</p>
-                 <p>Throughout your project, our designers create and implement visual design</p>
-                 <p> and workflows solicit user feedback and work with you</p>
-                 <p>to make sure what gets built is what is needed.</p>
-                </div>
-
-                <br>
-                <div class="col-md-4">
-                <img src="img/dev_icon.png" alt="an image of a dev icon" id="image2" class="offset-4">
-                <h3>DEVELOPMENT</h3>
-                <P>DEVELOPMENT</P>
-                <p>All engineers are fluent in the latest enterprise,</p>
-                <p>mobile and web development technologies.</p>
-                <p>They collaborate with your team to write, and improve code on a daily basis,</p>
-                <p>using proven practices such as test-driven development and pair programming.</P>
-                </div>
-
-                <div class="col-md-4">
-                 <img src="img/product_icon.png" alt="an image of a product icon" id="image3" class="offset-4">
-                 <h3>PRODUCT MANAGEMENT</h3>
-                 <p>PRODUCT MANAGEMENT</p>
-                 <p>Planning and development is iterative. Because we are constantly coding and testing,
-                 the products we build are always ready to go live.
-                 This iterative process allows for changes as business requirements evolve.</P>
-                </div>
-            </div>
+        <div class="row">
+        <div class="col-md-4">
+        <div id="design-hidden">
+        <img src="img/design_icon.png" alt="An image of the design icon">
+        <p><span class="clickable">DESIGN</span></p>
         </div>
+        <div id="design-showing">
+        <h3><span class="clickable">DESIGN<span></h3>
+        <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+        </div>
+        </div>
+             
+        <div class="col-md-4">
+        <div id="dev-hidden">
+        <img src="img/dev_icon.png" alt="An image of the dev icon">
+        <p><span class="click">DEVELOPMENT</span></p>
+        </div>
+        <div id="dev-showing">
+        <h3><span class="click">DEVELOPMENT</span></h3>
+        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+        </div>
+        </div>
+             
+        <div class="col-md-4">
+        <div id="pro-hidden">
+        <img src="img/product_icon.png" alt="An image of the product icon">
+        <p><span class="clik">PRODUCT MANAGEMENT</span></p>
+        </div>
+        <div id="pro-showing">
+        <h3><span class="clik">PRODUCT MANAGEMENT</span></h3>
+        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+        </div>
+        </div>
+        </div>
+        
 
 
                 <h2>PORTFOLIO</h2>
@@ -103,8 +101,30 @@
 
         <!--Contact Section-->
 
-       
-             </div>
+        <section class= "contacts">
+             <div class="contacts">
+                <h2>CONTACT US</h2>
+                <div class="row">
+                        <div class="col-md-7">
+                        <form id="contact-form">
+                                <label for="inputName">Name</label>
+                                <input id="inputName" type="text" placeholder="Name" name="name"/>
+                                </div>
+                                <div class="col-md-5">
+                                <label for="inputEmail">Email</label>
+                                <input id="inputEmail" type="email" placeholder="Email" name="email"/>
+                                </div>
+                                </div>
+                                <label for="inputMessage">Message</label>
+                           
+                                <textarea id="inputMessage" rows="7" placeholder="Your Message" name="message"></textarea>
+                                </div>
+                                <input class="btn--default fill" id="email-submit-btn" type="submit" value="Send"/>
+                              </form>
+                          </div>
+                        </form>
+                
+                 </div>
         </section>
 
  <!--Icons Section-->
