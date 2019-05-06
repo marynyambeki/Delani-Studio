@@ -47,6 +47,7 @@ body {
     margin:auto;
     display: table-cell;
     color: white;
+    padding-top: 300px;
 }
 .services {
     background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg");
@@ -69,11 +70,12 @@ body {
     text-align: center;
     display:table-cell;
     padding:20px;
-    width: 30%;
+    width: 100%;
     align-items: horizontal;
+    padding-right: 50px;
 }
 .mouse-click{
-  object-position: center;
+  padding-top: 400px;
 }
 
 /* Style the form - display items horizontally */
@@ -82,4 +84,9 @@ body {
     flex-flow: row wrap;
     align-items: center;
   }
- 
+ .contact-form {
+
+ }
+ .row-icons {
+     padding-top:25px;
+ }
