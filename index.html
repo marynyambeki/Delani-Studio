@@ -1,159 +1,233 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=UTF-8>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script src="js/jquery-3.4.1.js"></script>
-        <script src="js/scripts.js"></script>
-        <title> DELANI STUDIO</title>
-    </head>
-    <body>
-        <header>
+    <title> DELANI STUDIO</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
 
         <div class="welcome">
-        <img src="img/logo.png" alt="an image of a logo icon">
-        <h1>WELCOME </h1>
-        <h1>TO DELANI STUDIO</h1>
-        <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</P>
+            <img src="img/logo.png" alt="an image of a logo icon">
+            <h1>WELCOME </h1>
+            <h1>TO DELANI STUDIO</h1>
+            <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</P>
 
-        <div class="container">
-            <div class="mouse-click">
-               <img src="img/mouse_click.png" alt="an image of a mouse icon">
+            <div class="container">
+                <div class="mouse-click">
+                    <img src="img/mouse_click.png" alt="an image of a mouse icon">
+                </div>
             </div>
-        </div>
-        
-        </header>
 
-        <section class= "about us">
-    
-        <h2>ABOUT US</h2>
-        <P> When you work with us,you are part of a team of committed collaborators. All aspects of our software development process are intergrated,interactive</p>
+    </header>
+    <br>
+    <section class="about us">
+
+        <h2><strong>ABOUT US</strong></h2>
+        <P> When you work with us,you are part of a team of committed collaborators. All aspects of our software
+            development process are intergrated,interactive</p>
         <p> and agile.</P>
         <p>Our approach unifies design,development and product management to create exceptional products.</p>
         <p>We start each project by understanding your business goals, the user's needs and the product requirements</p>
         <p>Then we help translate them into effective and elegant solutions.</p>
 
-        </section>
-        <section class="services">
-           <div class="services">
+    </section>
+    <section class="services">
+        <div id="services">
 
-              <h2>SERVICES</h2>
-              <P>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</P>
-              <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
-              <p>based on your requirements, we can provide a complete offering or just the pieces you need.</p>
-           </div>
+            <h2><strong>SERVICES</strong></h2>
+            <P>Before we sign a contract or write a line of code our team will spend the necessary time needed to
+                understand your product vision</P>
+            <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
+            <p>based on your requirements, we can provide a complete offering or just the pieces you need.</p>
+        </div>
 
-        </section>
+    </section>
+    <br>
 
-        <h2>WHAT WE DO</h2>
-        <div class="row">
-        <div class="col-md-4">
-        <div id="design-hidden">
-        <img src="img/design_icon.png" alt="An image of the design icon">
-        <p><span class="clickable">DESIGN</span></p>
-        </div>
-        <div id="design-showing">
-        <h3><span class="clickable">DESIGN<span></h3>
-        <p>Our design practice offers a full range of services including brand strategy,</p>
-        <p>interaction and visual design and user experience testing. </p>
-        <p>Throughout your project, our designers create and implement visual design and workflows,</p>
-        <p> solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-        </div>
-        </div>
-             
-        <div class="col-md-4">
-        <div id="dev-hidden">
-        <img src="img/dev_icon.png" alt="An image of the dev icon">
-        <p><span class="click">DEVELOPMENT</span></p>
-        </div>
-        <div id="dev-showing">
-        <h3><span class="click">DEVELOPMENT</span></h3>
-        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-        <p>They collaborate with your team to write, and improve code on a daily basis,</p>
-        <p>using proven practices such as test-driven development and pair programming.</p>
-        </div>
-        </div>
-             
-        <div class="col-md-4">
-        <div id="pro-hidden">
-        <img src="img/product_icon.png" alt="An image of the product icon">
-        <p><span class="clik">PRODUCT MANAGEMENT</span></p>
-        </div>
-        <div id="pro-showing">
-        <h3><span class="clik">PRODUCT MANAGEMENT</span></h3>
-        <p>Planning and development is iterative.</p>
-        <p>Because we are constantly coding and testing,</p> 
-        </p>the products we build are always ready to go live. </p>
-        </p>This iterative process allows for changes as business requirements evolve.</p>
-        </div>
-        </div>
-        </div>
-        
+    <h2><strong>WHAT WE DO</strong></h2>
+    <br>
+    <div class="container mexo">
+        <div class="row ">
+            <div class="col-md-4 clickable">
+                <div id="design-hidden">
+                    <img src="img/design_icon.png" alt="An image of the dev icon" class="clickable">
+                    <p>DESIGN</p>
+                    <!-- <p><span class="clickable">DESIGN</span></p> -->
+                </div>
+                <div id="design-showing">
+                    <h5><span>DESIGN<span></h5>
 
+                    <p>Our design practice offers a full range of services including brand strategy,</p>
+                    <p>interaction and visual design and user experience testing. </p>
+                    <p>Throughout your project, our designers create and implement visual design and workflows,</p>
+                    <p> solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
 
-                <h2>PORTFOLIO</h2>
-                    <img src="img/image3.jpg" alt="an image of a portfolio">
-                    <img src="img/image4.jpg" alt="an image of a portfolio">
-                    <img src="img/image5.jpg" alt="an image of a portfolio">
-                    <img src="img/image6.jpg" alt="an image of a portfolio">
-                    <img src="img/image7.jpg" alt="an image of a portfolio">
-                    <img src="img/image8.jpg" alt="an image of a portfolio">
-                    <img src="img/image9.jpg" alt="an image of a portfolio">
-                    <img src="img/image10.jpg" alt="an image of a portfolio">
             </div>
-        </div>
 
-        <!--Contact Section-->
-
-        <section class= "contacts">
-             <div class="contacts">
-                <h2>CONTACT US</h2>
-                <div class="row">
-                        <div class="col-md-7">
-                        <form id="contact-form">
-                                <label for="inputName">Name</label>
-                                <input id="inputName" type="text" placeholder="Name" name="name"/>
-                                </div>
-                                <div class="col-md-5">
-                                <label for="inputEmail">Email</label>
-                                <input id="inputEmail" type="email" placeholder="Email" name="email"/>
-                                </div>
-                                </div>
-                                <label for="inputMessage">Message</label>
-                                <textarea id="inputMessage" rows="7" placeholder="Your Message" name="message"></textarea>
-                                </div>
-                        </form>
-                        </div>
+            <div class="col-md-4  click">
+                <div id="dev-hidden">
+                    <img src="img/dev_icon.png" alt="An image of the dev icon">
+                    <p>DEVELOPMENT</p>
+                    <!-- <p><span class="click">DEVELOPMENT</span></p> -->
+                </div>
+                <div id="dev-showing">
+                    <h5><span>DEVELOPMENT</span></h5>
+                    <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                    <p>They collaborate with your team to write, and improve code on a daily basis,</p>
+                    <p>using proven practices such as test-driven development and pair programming.</p>
                 </div>
             </div>
-        </section>
-        <!--Contact Section-->
 
- <!--Icons Section-->
-       <div class="row-icons">
-        <div id="icons">
-               
-        <img src ="img/twitter.png" alt="an image of twitter">
-        <img src ="img/dribble.png" alt="an image of dribble">
-        <img src ="img/facebook.png" alt="an image of facebook">
-        <img src ="img/g_plus.png" alt="an image of googleplus">
-        <img src ="img/skype.png" alt="an image of skype">
-        <img src ="img/stumble_upon.png" alt="an image of stumble">
-        <img src ="img/behance.png" alt="an image of behance">
-        <img src ="img/pinterest.png" alt="an image of pinterest">
-        <img src ="img/flickr.png" alt="an image of flickr">
-
+            <div class="col-md-4  able">
+                <div id="pro-hidden">
+                    <img src="img/product_icon.png" alt="An image of the product icon">
+                    <p>PRODUCT MANAGEMENT </p>
+                    <!-- <p><span class="clik">PRODUCT MANAGEMENT</span></p> -->
+                </div>
+                <div id="pro-showing">
+                    <h5><span>PRODUCT MANAGEMENT</span></h5>
+                    <p>Planning and development is iterative.</p>
+                    <p>Because we are constantly coding and testing,</p>
+                    </p>the products we build are always ready to go live. </p>
+                    </p>This iterative process allows for changes as business requirements evolve.</p>
+                </div>
+            </div>
         </div>
 
-          <!--Footer Section-->
-          <div class="row footer">
-              <p>DELANI STUDIOS<br>2019</p>
-          </div>
-      </section>
-      
-    <script src='https://d33wubrfki0l68.cloudfront.net/bundles/7430f04267e2bf42e9b94d247470638e31e02b96.js'></script>
-  </body>
+    </div>
+
+
+    <section id="portfolio">
+        <div class="view">
+            <h2><strong>PORTFOLIO</strong></h2>
+            
+            <div class="row port view">
+
+                <div class="col view overlay">
+                  
+                   <div class="hide"> 
+                    <p>Blank</p>
+                   </div>
+                   <img src="img/image3.jpg" alt="an image of a portfolio" class="img-fluid">
+                  
+                </div>
+                
+                <div class="col projectz view overlay zoom">
+                   <div class="hide"> 
+                    <p>Ontario</p>
+                   </div>
+                    <img  class="blur" src="img/image4.jpg" alt="an image of a portfolio">
+                </div>
+
+                <div class="col">
+                   <div class="hide"> 
+                    <p>Orange</p>
+                   </div>
+                    <img class="blur" src="img/image5.jpg" alt="an image of a portfolio">
+                </div>
+
+                <div class="col">
+                     <div class="hide"> 
+                      <p>Cartoon</p>
+                     </div>
+                    <img class="blur" src="img/image6.jpg" alt="an image of a portfolio">
+                </div>
+
+            </div>
+            <div class="row port view">
+                <div class="col">
+                    <div class="hide"> 
+                      <p>Good day</p>
+                    </div>
+                    <img id="img" src="img/image7.jpg" alt="an image of a portfolio">
+                </div>
+                <div class="col">
+                    <div class="hide"> 
+                     <p>Form</p>
+                    </div>
+                    <img id="img" src="img/image8.jpg" alt="an image of a portfolio">
+                </div>
+                <div class="col">
+                    <div class="hide"> 
+                      <p>Burned</p>
+                    </div>
+                    <img id="img" src="img/image9.jpg" alt="an image of a portfolio">
+                </div>
+                <div class="col">
+                    <div class="hide"> 
+                      <p>Giraffe</p>
+                    </div>
+                    <img id="img" src="img/image10.jpg" alt="an image of a portfolio">
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <!--Contact Section-->
+        <div class="contback">
+            <div class="contact">
+                <h2><strong>CONTACT US</strong></h2>
+                <div class="contactin">
+                    <form>
+                        <form action="https://formspree.io//marynyambeki1@gmail.com" method="POST">
+                            <input type="text" id="myname" name="firstname" placeholder="Name"="Name">
+                            <input type="text" name="email" placeholder="Email"><br><br>
+                            <textarea name="Name" rows="5" cols="50" placeholder="Your Message here"></textarea><br>
+                            <input type="hidden" name="_next" value="thank-you for contacting us" />
+                            <input type="Submit" id="Submit" value="Submit">
+                        </form>
+                </div>
+            </div>
+        </div>
+        <!--Contact Section-->
+
+
+        <!--Icons Section-->
+
+        <div class="row-icons">
+            <div id="icons">
+
+                <img src="img/twitter.png" alt="an image of twitter">
+                <img src="img/dribble.png" alt="an image of dribble">
+                <img src="img/facebook.png" alt="an image of facebook">
+                <img src="img/g_plus.png" alt="an image of googleplus">
+                <img src="img/skype.png" alt="an image of skype">
+                <img src="img/stumble_upon.png" alt="an image of stumble">
+                <img src="img/behance.png" alt="an image of behance">
+                <img src="img/pinterest.png" alt="an image of pinterest">
+                <img src="img/flickr.png" alt="an image of flickr">
+
+            </div>
+            <br>
+            <!--Footer Section-->
+            <div class="row-footer">
+                <p>DELANI STUDIOS<br>2019</p>
+            </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-3.4.1.js'></script>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
